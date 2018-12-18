@@ -1,0 +1,15 @@
+{
+  "source": "Unity",
+  "applications": [
+    {
+      "app_key": "application.generated.unity.vrnd_c8a_projectassetpack.exe",
+      "launch_type": "url",
+      "url": "steam://launch/",
+      "strings": {
+        "en_us": {
+          "name": "VRND_C8A_ProjectAssetPack [Testing]"
+        }
+      }
+    }
+  ]
+}

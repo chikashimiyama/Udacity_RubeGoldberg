@@ -1,0 +1,549 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="ba8972a4-f20b-4cc6-b9d1-cb635113ab24" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="2125355458">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.open.time.7" value="1" />
+          <entry key="project.open.time.9" value="1" />
+          <entry key="project.opened" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="cs" value="3" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="C#" value="3" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="cs" value="393" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="C#" value="393" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/SteamVR/Scripts/SteamVR_RenderModel.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2450">
+              <caret line="98" selection-start-line="98" selection-end-line="98" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/SteamVR/Scripts/SteamVR_Render.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="6300">
+              <caret line="252" selection-start-line="252" selection-end-line="252" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/SteamVR/Scripts/SteamVR.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="4475">
+              <caret line="185" selection-start-line="185" selection-end-line="185" />
+              <folding>
+                <marker date="1537987007000" expanded="true" signature="0:245" ph="/* ======= Copyright (c) Valve Corporation, All rights reserved. =============== ... */" />
+                <marker date="1537987007000" expanded="false" signature="253:370" ph="..." />
+                <marker date="1537987007000" expanded="true" signature="539:25732" ph="{...}" />
+                <marker date="1537987007000" expanded="true" signature="554:666" ph="/* Use this to check if SteamVR is currently active without attempting ... */" />
+                <marker date="1537987007000" expanded="true" signature="910:1356" ph="{...}" />
+                <marker date="1537987007000" expanded="true" signature="936:1075" ph="{...}" />
+                <marker date="1537987007000" expanded="true" signature="1091:1346" ph="{...}" />
+                <marker date="1537987007000" expanded="true" signature="1170:1240" ph="{...}" />
+                <marker date="1537987007000" expanded="true" signature="1261:1332" ph="{...}" />
+                <marker date="1537987007000" expanded="true" signature="1438:2028" ph="{...}" />
+                <marker date="1537987007000" expanded="true" signature="1464:2018" ph="{...}" />
+                <marker date="1537987007000" expanded="true" signature="1682:1969" ph="{...}" />
+                <marker date="1537987007000" expanded="true" signature="2098:2602" ph="{...}" />
+                <marker date="1537987007000" expanded="true" signature="2142:2262" ph="{...}" />
+                <marker date="1537987007000" expanded="true" signature="2279:2517" ph="{...}" />
+                <marker date="1537987007000" expanded="true" signature="2332:2503" ph="{...}" />
+                <marker date="1537987007000" expanded="true" signature="2649:2743" ph="{...}" />
+                <marker date="1537987007000" expanded="true" signature="2863:5270" ph="{...}" />
+                <marker date="1537987007000" expanded="true" signature="2889:4958" ph="{...}" />
+                <marker date="1537987007000" expanded="true" signature="2999:3788" ph="{...}" />
+                <marker date="1537987007000" expanded="true" signature="3978:4147" ph="{...}" />
+                <marker date="1537987007000" expanded="true" signature="4278:4447" ph="{...}" />
+                <marker date="1537987007000" expanded="true" signature="4860:4944" ph="{...}" />
+                <marker date="1537987007000" expanded="true" signature="4997:5145" ph="{...}" />
+                <marker date="1537987007000" expanded="true" signature="5323:6297" ph="{...}" />
+                <marker date="1537987007000" expanded="true" signature="5360:6287" ph="{...}" />
+                <marker date="1537987007000" expanded="true" signature="8031:8608" ph="{...}" />
+                <marker date="1537987007000" expanded="true" signature="8284:8573" ph="{...}" />
+                <marker date="1537987007000" expanded="true" signature="8729:9293" ph="{...}" />
+                <marker date="1537987007000" expanded="true" signature="8935:9177" ph="{...}" />
+                <marker date="1537987007000" expanded="true" signature="9412:9580" ph="{...}" />
+                <marker date="1537987007000" expanded="true" signature="9649:11789" ph="{...}" />
+                <marker date="1537987007000" expanded="true" signature="9766:10067" ph="{...}" />
+                <marker date="1537987007000" expanded="true" signature="10571:10692" ph="{...}" />
+                <marker date="1537987007000" expanded="true" signature="10706:11531" ph="/* GameObject tempObject = new GameObject(&quot;[Temp] [SteamVR Input]&quot;); ... */" />
+                <marker date="1537987007000" expanded="true" signature="11876:12841" ph="{...}" />
+                <marker date="1537987007000" expanded="true" signature="12625:12796" ph="{...}" />
+                <marker date="1537987007000" expanded="true" signature="13074:13545" ph="{...}" />
+                <marker date="1537987007000" expanded="true" signature="13259:13459" ph="{...}" />
+                <marker date="1537987007000" expanded="true" signature="13594:18072" ph="{...}" />
+                <marker date="1537987007000" expanded="true" signature="13931:14753" ph="{...}" />
+                <marker date="1537987007000" expanded="true" signature="14377:14739" ph="{...}" />
+                <marker date="1537987007000" expanded="true" signature="14802:18032" ph="{...}" />
+                <marker date="1537987007000" expanded="true" signature="15342:15820" ph="/* manifestApplication.binary_path_windows = SteamVR_Utils.ConvertToForwardSlashes(System.Diagnostics.Process.Get ... */" />
+                <marker date="1537987007000" expanded="true" signature="16076:17494" ph="/* var bindings = new System.Collections.Generic.List&lt;SteamVR_Input_ManifestFile_Application_Binding&gt;(); ... */" />
+                <marker date="1537987007000" expanded="true" signature="18123:19207" ph="{...}" />
+                <marker date="1537987007000" expanded="true" signature="18287:18723" ph="{...}" />
+                <marker date="1537987007000" expanded="false" signature="19217:21482" ph="Event callbacks" />
+                <marker date="1537987007000" expanded="true" signature="19296:19365" ph="{...}" />
+                <marker date="1537987007000" expanded="true" signature="19419:19486" ph="{...}" />
+                <marker date="1537987007000" expanded="true" signature="19538:19603" ph="{...}" />
+                <marker date="1537987007000" expanded="true" signature="19666:19732" ph="{...}" />
+                <marker date="1537987007000" expanded="true" signature="19794:21462" ph="{...}" />
+                <marker date="1537987007000" expanded="true" signature="20119:20370" ph="{...}" />
+                <marker date="1537987007000" expanded="true" signature="20249:20356" ph="{...}" />
+                <marker date="1537987007000" expanded="true" signature="20437:21452" ph="{...}" />
+                <marker date="1537987007000" expanded="true" signature="20673:20777" ph="{...}" />
+                <marker date="1537987007000" expanded="true" signature="21010:21112" ph="{...}" />
+                <marker date="1537987007000" expanded="true" signature="21338:21438" ph="{...}" />
+                <marker date="1537987007000" expanded="true" signature="21509:24870" ph="{...}" />
+                <marker date="1537987007000" expanded="true" signature="23648:23831" ph="{...}" />
+                <marker date="1537987007000" expanded="true" signature="23884:24547" ph="{...}" />
+                <marker date="1537987007000" expanded="true" signature="24890:24938" ph="{...}" />
+                <marker date="1537987007000" expanded="true" signature="24969:25062" ph="{...}" />
+                <marker date="1537987007000" expanded="true" signature="25108:25471" ph="{...}" />
+                <marker date="1537987007000" expanded="true" signature="25634:25726" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/SteamVR/Input/SteamVR_Action_Pose.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2250">
+              <caret line="95" selection-start-line="95" selection-end-line="95" />
+              <folding>
+                <marker date="1537986946000" expanded="false" signature="87:227" ph="..." />
+                <marker date="1537986946000" expanded="true" signature="254:639" ph="/// Pose actions represent a position and orientation inside the tracked space.  ... " />
+                <marker date="1537986946000" expanded="true" signature="696:21245" ph="{...}" />
+                <marker date="1537986946000" expanded="true" signature="2716:2843" ph="{...}" />
+                <marker date="1537986946000" expanded="true" signature="3032:3531" ph="{...}" />
+                <marker date="1537986946000" expanded="true" signature="3740:3805" ph="{...}" />
+                <marker date="1537986946000" expanded="true" signature="3880:4058" ph="{...}" />
+                <marker date="1537986946000" expanded="true" signature="4297:6108" ph="{...}" />
+                <marker date="1537986946000" expanded="true" signature="4400:4474" ph="{...}" />
+                <marker date="1537986946000" expanded="true" signature="4721:4880" ph="{...}" />
+                <marker date="1537986946000" expanded="true" signature="5258:5331" ph="{...}" />
+                <marker date="1537986946000" expanded="true" signature="5465:5538" ph="{...}" />
+                <marker date="1537986946000" expanded="true" signature="5590:5667" ph="{...}" />
+                <marker date="1537986946000" expanded="true" signature="5912:6098" ph="{...}" />
+                <marker date="1537986946000" expanded="true" signature="6118:6462" ph="/// SteamVR keeps a log of past poses so you can retrieve old poses or estimated poses in the future by passing i ... " />
+                <marker date="1537986946000" expanded="true" signature="6616:7558" ph="{...}" />
+                <marker date="1537986946000" expanded="true" signature="6863:7190" ph="{...}" />
+                <marker date="1537986946000" expanded="true" signature="7568:7912" ph="/// SteamVR keeps a log of past poses so you can retrieve old poses or estimated poses in the future by passing i ... " />
+                <marker date="1537986946000" expanded="true" signature="8107:9575" ph="{...}" />
+                <marker date="1537986946000" expanded="true" signature="8354:9005" ph="{...}" />
+                <marker date="1537986946000" expanded="true" signature="8424:8558" ph="{...}" />
+                <marker date="1537986946000" expanded="true" signature="8579:8782" ph="{...}" />
+                <marker date="1537986946000" expanded="true" signature="9585:9932" ph="/// Update a transform's local position and local roation to match the pose. ... " />
+                <marker date="1537986946000" expanded="true" signature="10032:10206" ph="{...}" />
+                <marker date="1537986946000" expanded="true" signature="10416:11536" ph="{...}" />
+                <marker date="1537986946000" expanded="true" signature="11158:11293" ph="{...}" />
+                <marker date="1537986946000" expanded="true" signature="11347:11526" ph="{...}" />
+                <marker date="1537986946000" expanded="true" signature="11743:11811" ph="{...}" />
+                <marker date="1537986946000" expanded="true" signature="11821:12051" ph="///The local position of the pose relative to the center of the tracked space. ... " />
+                <marker date="1537986946000" expanded="true" signature="12126:12536" ph="{...}" />
+                <marker date="1537986946000" expanded="true" signature="12149:12271" ph="/* Convert the transform from SteamVR's coordinate system to Unity's coordinate system. ... */" />
+                <marker date="1537986946000" expanded="true" signature="12546:12776" ph="///The local rotation of the pose relative to the center of the tracked space. ... " />
+                <marker date="1537986946000" expanded="true" signature="12854:12980" ph="{...}" />
+                <marker date="1537986946000" expanded="true" signature="12990:13220" ph="///The local velocity of the pose relative to the center of the tracked space. ... " />
+                <marker date="1537986946000" expanded="true" signature="13290:13484" ph="{...}" />
+                <marker date="1537986946000" expanded="true" signature="13494:13732" ph="///The local angular velocity of the pose relative to the center of the tracked space. ... " />
+                <marker date="1537986946000" expanded="true" signature="13809:14025" ph="{...}" />
+                <marker date="1537986946000" expanded="true" signature="14234:14326" ph="{...}" />
+                <marker date="1537986946000" expanded="true" signature="14529:14615" ph="{...}" />
+                <marker date="1537986946000" expanded="true" signature="14832:14921" ph="{...}" />
+                <marker date="1537986946000" expanded="true" signature="14933:15168" ph="///The last local position of the pose relative to the center of the tracked space. ... " />
+                <marker date="1537986946000" expanded="true" signature="15247:15534" ph="{...}" />
+                <marker date="1537986946000" expanded="true" signature="15544:15779" ph="///The last local rotation of the pose relative to the center of the tracked space. ... " />
+                <marker date="1537986946000" expanded="true" signature="15861:15991" ph="{...}" />
+                <marker date="1537986946000" expanded="true" signature="16001:16236" ph="///The last local velocity of the pose relative to the center of the tracked space. ... " />
+                <marker date="1537986946000" expanded="true" signature="16310:16516" ph="{...}" />
+                <marker date="1537986946000" expanded="true" signature="16526:16769" ph="///The last local angular velocity of the pose relative to the center of the tracked space. ... " />
+                <marker date="1537986946000" expanded="true" signature="16850:17078" ph="{...}" />
+                <marker date="1537986946000" expanded="true" signature="17291:17387" ph="{...}" />
+                <marker date="1537986946000" expanded="true" signature="17594:17684" ph="{...}" />
+                <marker date="1537986946000" expanded="true" signature="17905:17998" ph="{...}" />
+                <marker date="1537986946000" expanded="true" signature="18009:18377" ph="///Fires an event when a device is connected or disconnected. ... " />
+                <marker date="1537986946000" expanded="true" signature="18496:18577" ph="{...}" />
+                <marker date="1537986946000" expanded="true" signature="18595:18881" ph="/// &lt;param name=&quot;inputSource&quot;&gt;The device you would like to remove an event from. Any if the action is not device s ... " />
+                <marker date="1537986946000" expanded="true" signature="19003:19084" ph="{...}" />
+                <marker date="1537986946000" expanded="true" signature="19095:19462" ph="///Fires an event when the tracking of the device has changed ... " />
+                <marker date="1537986946000" expanded="true" signature="19574:19648" ph="{...}" />
+                <marker date="1537986946000" expanded="true" signature="19658:19943" ph="/// &lt;param name=&quot;inputSource&quot;&gt;The device you would like to remove an event from. Any if the action is not device s ... " />
+                <marker date="1537986946000" expanded="true" signature="20058:20132" ph="{...}" />
+                <marker date="1537986946000" expanded="true" signature="20143:20549" ph="///Fires an event when the device now has a valid pose or no longer has a valid pose ... " />
+                <marker date="1537986946000" expanded="true" signature="20662:20737" ph="{...}" />
+                <marker date="1537986946000" expanded="true" signature="20747:21048" ph="/// &lt;param name=&quot;inputSource&quot;&gt;The device you would like to remove an event from. Any if the action is not device s ... " />
+                <marker date="1537986946000" expanded="true" signature="21164:21239" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/BallReset.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="9" column="29" lean-forward="true" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
+              <folding>
+                <marker date="1545052603014" expanded="true" signature="58:442" ph="{...}" />
+                <marker date="1545052603014" expanded="true" signature="121:181" ph="{...}" />
+                <marker date="1545052603014" expanded="true" signature="228:440" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/SteamVR/Scripts/SteamVR_Render.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/SteamVR/Scripts/SteamVR_RenderModel.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/BallReset.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/SteamVR/Scripts/SteamVR.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/SteamVR/Input/SteamVR_Action_Pose.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Assets/Scripts/BallReset.cs" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-1867" />
+    <option name="y" value="392" />
+    <option name="width" value="1542" />
+    <option name="height" value="839" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="UnityExplorer" proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="FileSystemExplorer" />
+      <pane id="UnityExplorer">
+        <option name="show-hidden-items" value="false" />
+      </pane>
+      <pane id="SolutionExplorer">
+        <option name="show-all-files" value="false" />
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Rider.DefaultBreakpoints.AreToggled" value="true" />
+    <property name="Rider.ProjectViewActivator.IsNotFirstRun" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
+    <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Attach to Unity Editor.Attach to Unity Editor" />
+      <item itemvalue="Attach to Unity Editor.Attach to Unity Editor &amp; Play" />
+    </list>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ba8972a4-f20b-4cc6-b9d1-cb635113ab24" name="Default Changelist" comment="" />
+      <created>1545030992395</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1545030992395</updated>
+      <workItem from="1545030998428" duration="586000" />
+      <workItem from="1545048878822" duration="4555000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="5141000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-1867" y="392" width="1542" height="839" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27867746" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="NuGet" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Unity" order="10" />
+      <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Unit Tests" order="12" />
+      <window_info anchor="bottom" id="Terminal" order="13" />
+      <window_info anchor="bottom" id="Event Log" order="14" side_tool="true" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Errors In Solution" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="right" id="Unit Tests Coverage" order="5" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" suspend="NONE" type="DotNet Exception Breakpoints">
+          <properties exception="System.Threading.ThreadAbortException" displayValue="System.Threading.ThreadAbortException" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Assets/SteamVR/Scripts/SteamVR_RenderModel.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2450">
+          <caret line="98" selection-start-line="98" selection-end-line="98" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/SteamVR/Scripts/SteamVR_Render.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6300">
+          <caret line="252" selection-start-line="252" selection-end-line="252" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/SteamVR/Scripts/SteamVR.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4475">
+          <caret line="185" selection-start-line="185" selection-end-line="185" />
+          <folding>
+            <marker date="1537987007000" expanded="true" signature="0:245" ph="/* ======= Copyright (c) Valve Corporation, All rights reserved. =============== ... */" />
+            <marker date="1537987007000" expanded="false" signature="253:370" ph="..." />
+            <marker date="1537987007000" expanded="true" signature="539:25732" ph="{...}" />
+            <marker date="1537987007000" expanded="true" signature="554:666" ph="/* Use this to check if SteamVR is currently active without attempting ... */" />
+            <marker date="1537987007000" expanded="true" signature="910:1356" ph="{...}" />
+            <marker date="1537987007000" expanded="true" signature="936:1075" ph="{...}" />
+            <marker date="1537987007000" expanded="true" signature="1091:1346" ph="{...}" />
+            <marker date="1537987007000" expanded="true" signature="1170:1240" ph="{...}" />
+            <marker date="1537987007000" expanded="true" signature="1261:1332" ph="{...}" />
+            <marker date="1537987007000" expanded="true" signature="1438:2028" ph="{...}" />
+            <marker date="1537987007000" expanded="true" signature="1464:2018" ph="{...}" />
+            <marker date="1537987007000" expanded="true" signature="1682:1969" ph="{...}" />
+            <marker date="1537987007000" expanded="true" signature="2098:2602" ph="{...}" />
+            <marker date="1537987007000" expanded="true" signature="2142:2262" ph="{...}" />
+            <marker date="1537987007000" expanded="true" signature="2279:2517" ph="{...}" />
+            <marker date="1537987007000" expanded="true" signature="2332:2503" ph="{...}" />
+            <marker date="1537987007000" expanded="true" signature="2649:2743" ph="{...}" />
+            <marker date="1537987007000" expanded="true" signature="2863:5270" ph="{...}" />
+            <marker date="1537987007000" expanded="true" signature="2889:4958" ph="{...}" />
+            <marker date="1537987007000" expanded="true" signature="2999:3788" ph="{...}" />
+            <marker date="1537987007000" expanded="true" signature="3978:4147" ph="{...}" />
+            <marker date="1537987007000" expanded="true" signature="4278:4447" ph="{...}" />
+            <marker date="1537987007000" expanded="true" signature="4860:4944" ph="{...}" />
+            <marker date="1537987007000" expanded="true" signature="4997:5145" ph="{...}" />
+            <marker date="1537987007000" expanded="true" signature="5323:6297" ph="{...}" />
+            <marker date="1537987007000" expanded="true" signature="5360:6287" ph="{...}" />
+            <marker date="1537987007000" expanded="true" signature="8031:8608" ph="{...}" />
+            <marker date="1537987007000" expanded="true" signature="8284:8573" ph="{...}" />
+            <marker date="1537987007000" expanded="true" signature="8729:9293" ph="{...}" />
+            <marker date="1537987007000" expanded="true" signature="8935:9177" ph="{...}" />
+            <marker date="1537987007000" expanded="true" signature="9412:9580" ph="{...}" />
+            <marker date="1537987007000" expanded="true" signature="9649:11789" ph="{...}" />
+            <marker date="1537987007000" expanded="true" signature="9766:10067" ph="{...}" />
+            <marker date="1537987007000" expanded="true" signature="10571:10692" ph="{...}" />
+            <marker date="1537987007000" expanded="true" signature="10706:11531" ph="/* GameObject tempObject = new GameObject(&quot;[Temp] [SteamVR Input]&quot;); ... */" />
+            <marker date="1537987007000" expanded="true" signature="11876:12841" ph="{...}" />
+            <marker date="1537987007000" expanded="true" signature="12625:12796" ph="{...}" />
+            <marker date="1537987007000" expanded="true" signature="13074:13545" ph="{...}" />
+            <marker date="1537987007000" expanded="true" signature="13259:13459" ph="{...}" />
+            <marker date="1537987007000" expanded="true" signature="13594:18072" ph="{...}" />
+            <marker date="1537987007000" expanded="true" signature="13931:14753" ph="{...}" />
+            <marker date="1537987007000" expanded="true" signature="14377:14739" ph="{...}" />
+            <marker date="1537987007000" expanded="true" signature="14802:18032" ph="{...}" />
+            <marker date="1537987007000" expanded="true" signature="15342:15820" ph="/* manifestApplication.binary_path_windows = SteamVR_Utils.ConvertToForwardSlashes(System.Diagnostics.Process.Get ... */" />
+            <marker date="1537987007000" expanded="true" signature="16076:17494" ph="/* var bindings = new System.Collections.Generic.List&lt;SteamVR_Input_ManifestFile_Application_Binding&gt;(); ... */" />
+            <marker date="1537987007000" expanded="true" signature="18123:19207" ph="{...}" />
+            <marker date="1537987007000" expanded="true" signature="18287:18723" ph="{...}" />
+            <marker date="1537987007000" expanded="false" signature="19217:21482" ph="Event callbacks" />
+            <marker date="1537987007000" expanded="true" signature="19296:19365" ph="{...}" />
+            <marker date="1537987007000" expanded="true" signature="19419:19486" ph="{...}" />
+            <marker date="1537987007000" expanded="true" signature="19538:19603" ph="{...}" />
+            <marker date="1537987007000" expanded="true" signature="19666:19732" ph="{...}" />
+            <marker date="1537987007000" expanded="true" signature="19794:21462" ph="{...}" />
+            <marker date="1537987007000" expanded="true" signature="20119:20370" ph="{...}" />
+            <marker date="1537987007000" expanded="true" signature="20249:20356" ph="{...}" />
+            <marker date="1537987007000" expanded="true" signature="20437:21452" ph="{...}" />
+            <marker date="1537987007000" expanded="true" signature="20673:20777" ph="{...}" />
+            <marker date="1537987007000" expanded="true" signature="21010:21112" ph="{...}" />
+            <marker date="1537987007000" expanded="true" signature="21338:21438" ph="{...}" />
+            <marker date="1537987007000" expanded="true" signature="21509:24870" ph="{...}" />
+            <marker date="1537987007000" expanded="true" signature="23648:23831" ph="{...}" />
+            <marker date="1537987007000" expanded="true" signature="23884:24547" ph="{...}" />
+            <marker date="1537987007000" expanded="true" signature="24890:24938" ph="{...}" />
+            <marker date="1537987007000" expanded="true" signature="24969:25062" ph="{...}" />
+            <marker date="1537987007000" expanded="true" signature="25108:25471" ph="{...}" />
+            <marker date="1537987007000" expanded="true" signature="25634:25726" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/SteamVR/Input/SteamVR_Action_Pose.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2250">
+          <caret line="95" selection-start-line="95" selection-end-line="95" />
+          <folding>
+            <marker date="1537986946000" expanded="false" signature="87:227" ph="..." />
+            <marker date="1537986946000" expanded="true" signature="254:639" ph="/// Pose actions represent a position and orientation inside the tracked space.  ... " />
+            <marker date="1537986946000" expanded="true" signature="696:21245" ph="{...}" />
+            <marker date="1537986946000" expanded="true" signature="2716:2843" ph="{...}" />
+            <marker date="1537986946000" expanded="true" signature="3032:3531" ph="{...}" />
+            <marker date="1537986946000" expanded="true" signature="3740:3805" ph="{...}" />
+            <marker date="1537986946000" expanded="true" signature="3880:4058" ph="{...}" />
+            <marker date="1537986946000" expanded="true" signature="4297:6108" ph="{...}" />
+            <marker date="1537986946000" expanded="true" signature="4400:4474" ph="{...}" />
+            <marker date="1537986946000" expanded="true" signature="4721:4880" ph="{...}" />
+            <marker date="1537986946000" expanded="true" signature="5258:5331" ph="{...}" />
+            <marker date="1537986946000" expanded="true" signature="5465:5538" ph="{...}" />
+            <marker date="1537986946000" expanded="true" signature="5590:5667" ph="{...}" />
+            <marker date="1537986946000" expanded="true" signature="5912:6098" ph="{...}" />
+            <marker date="1537986946000" expanded="true" signature="6118:6462" ph="/// SteamVR keeps a log of past poses so you can retrieve old poses or estimated poses in the future by passing i ... " />
+            <marker date="1537986946000" expanded="true" signature="6616:7558" ph="{...}" />
+            <marker date="1537986946000" expanded="true" signature="6863:7190" ph="{...}" />
+            <marker date="1537986946000" expanded="true" signature="7568:7912" ph="/// SteamVR keeps a log of past poses so you can retrieve old poses or estimated poses in the future by passing i ... " />
+            <marker date="1537986946000" expanded="true" signature="8107:9575" ph="{...}" />
+            <marker date="1537986946000" expanded="true" signature="8354:9005" ph="{...}" />
+            <marker date="1537986946000" expanded="true" signature="8424:8558" ph="{...}" />
+            <marker date="1537986946000" expanded="true" signature="8579:8782" ph="{...}" />
+            <marker date="1537986946000" expanded="true" signature="9585:9932" ph="/// Update a transform's local position and local roation to match the pose. ... " />
+            <marker date="1537986946000" expanded="true" signature="10032:10206" ph="{...}" />
+            <marker date="1537986946000" expanded="true" signature="10416:11536" ph="{...}" />
+            <marker date="1537986946000" expanded="true" signature="11158:11293" ph="{...}" />
+            <marker date="1537986946000" expanded="true" signature="11347:11526" ph="{...}" />
+            <marker date="1537986946000" expanded="true" signature="11743:11811" ph="{...}" />
+            <marker date="1537986946000" expanded="true" signature="11821:12051" ph="///The local position of the pose relative to the center of the tracked space. ... " />
+            <marker date="1537986946000" expanded="true" signature="12126:12536" ph="{...}" />
+            <marker date="1537986946000" expanded="true" signature="12149:12271" ph="/* Convert the transform from SteamVR's coordinate system to Unity's coordinate system. ... */" />
+            <marker date="1537986946000" expanded="true" signature="12546:12776" ph="///The local rotation of the pose relative to the center of the tracked space. ... " />
+            <marker date="1537986946000" expanded="true" signature="12854:12980" ph="{...}" />
+            <marker date="1537986946000" expanded="true" signature="12990:13220" ph="///The local velocity of the pose relative to the center of the tracked space. ... " />
+            <marker date="1537986946000" expanded="true" signature="13290:13484" ph="{...}" />
+            <marker date="1537986946000" expanded="true" signature="13494:13732" ph="///The local angular velocity of the pose relative to the center of the tracked space. ... " />
+            <marker date="1537986946000" expanded="true" signature="13809:14025" ph="{...}" />
+            <marker date="1537986946000" expanded="true" signature="14234:14326" ph="{...}" />
+            <marker date="1537986946000" expanded="true" signature="14529:14615" ph="{...}" />
+            <marker date="1537986946000" expanded="true" signature="14832:14921" ph="{...}" />
+            <marker date="1537986946000" expanded="true" signature="14933:15168" ph="///The last local position of the pose relative to the center of the tracked space. ... " />
+            <marker date="1537986946000" expanded="true" signature="15247:15534" ph="{...}" />
+            <marker date="1537986946000" expanded="true" signature="15544:15779" ph="///The last local rotation of the pose relative to the center of the tracked space. ... " />
+            <marker date="1537986946000" expanded="true" signature="15861:15991" ph="{...}" />
+            <marker date="1537986946000" expanded="true" signature="16001:16236" ph="///The last local velocity of the pose relative to the center of the tracked space. ... " />
+            <marker date="1537986946000" expanded="true" signature="16310:16516" ph="{...}" />
+            <marker date="1537986946000" expanded="true" signature="16526:16769" ph="///The last local angular velocity of the pose relative to the center of the tracked space. ... " />
+            <marker date="1537986946000" expanded="true" signature="16850:17078" ph="{...}" />
+            <marker date="1537986946000" expanded="true" signature="17291:17387" ph="{...}" />
+            <marker date="1537986946000" expanded="true" signature="17594:17684" ph="{...}" />
+            <marker date="1537986946000" expanded="true" signature="17905:17998" ph="{...}" />
+            <marker date="1537986946000" expanded="true" signature="18009:18377" ph="///Fires an event when a device is connected or disconnected. ... " />
+            <marker date="1537986946000" expanded="true" signature="18496:18577" ph="{...}" />
+            <marker date="1537986946000" expanded="true" signature="18595:18881" ph="/// &lt;param name=&quot;inputSource&quot;&gt;The device you would like to remove an event from. Any if the action is not device s ... " />
+            <marker date="1537986946000" expanded="true" signature="19003:19084" ph="{...}" />
+            <marker date="1537986946000" expanded="true" signature="19095:19462" ph="///Fires an event when the tracking of the device has changed ... " />
+            <marker date="1537986946000" expanded="true" signature="19574:19648" ph="{...}" />
+            <marker date="1537986946000" expanded="true" signature="19658:19943" ph="/// &lt;param name=&quot;inputSource&quot;&gt;The device you would like to remove an event from. Any if the action is not device s ... " />
+            <marker date="1537986946000" expanded="true" signature="20058:20132" ph="{...}" />
+            <marker date="1537986946000" expanded="true" signature="20143:20549" ph="///Fires an event when the device now has a valid pose or no longer has a valid pose ... " />
+            <marker date="1537986946000" expanded="true" signature="20662:20737" ph="{...}" />
+            <marker date="1537986946000" expanded="true" signature="20747:21048" ph="/// &lt;param name=&quot;inputSource&quot;&gt;The device you would like to remove an event from. Any if the action is not device s ... " />
+            <marker date="1537986946000" expanded="true" signature="21164:21239" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/BallReset.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="9" column="29" lean-forward="true" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
+          <folding>
+            <marker date="1545052603014" expanded="true" signature="58:442" ph="{...}" />
+            <marker date="1545052603014" expanded="true" signature="121:181" ph="{...}" />
+            <marker date="1545052603014" expanded="true" signature="228:440" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
