@@ -1,7 +1,11 @@
 ﻿using System;
 using UnityEngine;
 
-public class StarBehaviour : MonoBehaviour, IVisibilityBehaviour, IEnterable {
+public interface IStarBehaviour : IVisibilityBehaviour, IEnterable
+{     
+}
+
+public class StarBehaviour : MonoBehaviour, IStarBehaviour {
 
     public bool IsVisible
     {
@@ -16,8 +20,8 @@ public class StarBehaviour : MonoBehaviour, IVisibilityBehaviour, IEnterable {
         if (Entered == null)
             return;
         
-        Entered.Invoke();
+        Entered.Invoke(this);
     }
 
-    public event Action Entered;
+    public event Action<IVisibilityBehaviour> Entered;
 }

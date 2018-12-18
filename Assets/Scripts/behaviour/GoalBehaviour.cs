@@ -1,6 +1,13 @@
+using System;
 using UnityEngine;
 
-public class GoalBehaviour: ISwapableObject
+public interface IGoalBehaviour
+{
+    bool State { get; set; }
+    event Action Reached;
+}
+
+public class GoalBehaviour: IGoalBehaviour
 {
 #pragma warning disable CS0649
 
@@ -9,7 +16,6 @@ public class GoalBehaviour: ISwapableObject
 
 #pragma warning restore CS0649
 
-    
     private bool state_;
     
     public bool State
@@ -33,4 +39,11 @@ public class GoalBehaviour: ISwapableObject
             }
         }
     }
+
+    private void OnTriggerEnter()
+    {
+        Reached.Invoke();
+    }
+    
+    public event Action Reached;
 }

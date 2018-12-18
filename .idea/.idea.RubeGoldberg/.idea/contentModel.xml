@@ -6,9 +6,25 @@
     <e p="C:\Users\chikashi\Development\UdacityVR\RubeGoldberg" t="IncludeRecursive">
       <e p="Assembly-CSharp-Editor.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
+      <e p="Assets\Editor" t="Include">
+        <e p="UnitTest_StarHandler.cs" t="Include" />
+      </e>
       <e p="Assets\Scripts" t="Include">
-        <e p="BallReset.cs" t="Include" />
-        <e p="StarCollider.cs" t="Include" />
+        <e p="behaviour" t="Include">
+          <e p="BallBehaviour.cs" t="Include" />
+          <e p="GameLogicBehavior.cs" t="Include" />
+          <e p="GoalBehaviour.cs" t="Include" />
+          <e p="IVisibilityBehaviour.cs" t="Include" />
+          <e p="PlatformBehaviour.cs" t="Include" />
+          <e p="StarBehaviour.cs" t="Include" />
+        </e>
+        <e p="interfaces" t="Include">
+          <e p="IEnterable.cs" t="Include" />
+          <e p="IPlatform.cs" t="Include" />
+        </e>
+        <e p="responder" t="Include">
+          <e p="objectiveHandler.cs" t="Include" />
+        </e>
       </e>
       <e p="Assets\SteamVR" t="Include">
         <e p="Editor" t="Include">
