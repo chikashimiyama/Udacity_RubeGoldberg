@@ -38,7 +38,7 @@ public class GoalBehaviour: MonoBehaviour, IGoalBehaviour
 
     private void OnTriggerEnter(Collider col)
     {
-        if (!col.gameObject.CompareTag("Goal")) return;
+        if (!col.gameObject.CompareTag("Throwable")) return;
         
         if(Reached != null)
             Reached.Invoke();

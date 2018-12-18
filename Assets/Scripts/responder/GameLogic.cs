@@ -46,13 +46,13 @@ public class GameLogic
     
     private void OnFloorTouched()
     {
-        // reset gained stars
         foreach (var star in starBehaviours_)
         {
             star.IsVisible = true;
         }
         gainedStars_ = 0;
         ballBehaviour_.Reset();
+        goalBehaviour_.State = false;
     }
 
     private void OnPlatformEntered()
