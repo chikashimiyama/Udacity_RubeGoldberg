@@ -7,7 +7,7 @@
       <e p="Assembly-CSharp-Editor.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets\Editor" t="Include">
-        <e p="UnitTest_StarHandler.cs" t="Include" />
+        <e p="UnitTest_GameLogic.cs" t="Include" />
       </e>
       <e p="Assets\Scripts" t="Include">
         <e p="behaviour" t="Include">
@@ -23,7 +23,8 @@
           <e p="IPlatform.cs" t="Include" />
         </e>
         <e p="responder" t="Include">
-          <e p="objectiveHandler.cs" t="Include" />
+          <e p="GameLogic.cs" t="Include" />
+          <e p="SceneLoader.cs" t="Include" />
         </e>
       </e>
       <e p="Assets\SteamVR" t="Include">

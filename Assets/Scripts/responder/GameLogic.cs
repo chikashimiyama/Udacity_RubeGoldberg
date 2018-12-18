@@ -1,21 +1,23 @@
-public class ObjectiveHandler
+public class GameLogic
 {
     private readonly IStarBehaviour[] starBehaviours_;
     private readonly IGoalBehaviour goalBehaviour_;
     private readonly IBallBehaviour ballBehaviour_;
-    private readonly IPlatformBehaviour platformBehaviour_;
+    private readonly ISceneLoader sceneLoader_;
     private int gainedStars_;
     private readonly int requiredStars_;
     
-    public ObjectiveHandler(IStarBehaviour[] starBehaviours, 
+    public GameLogic(IStarBehaviour[] starBehaviours, 
         IGoalBehaviour goalBehaviour, 
         IBallBehaviour ballBehaviour, 
-        IPlatformBehaviour platformBehaviour)
+        IPlatformBehaviour platformBehaviour,
+        ISceneLoader sceneLoader)
     {
         starBehaviours_ = starBehaviours;
         goalBehaviour_ = goalBehaviour;
         ballBehaviour_ = ballBehaviour;
-        platformBehaviour_ = platformBehaviour;
+        sceneLoader_ = sceneLoader;
+        
         requiredStars_ = starBehaviours_.Length;
         
         foreach (var star in starBehaviours)
@@ -25,8 +27,8 @@ public class ObjectiveHandler
 
         ballBehaviour_.FloorTouched += OnFloorTouched;
         goalBehaviour_.Reached += OnGoalReached;
-        platformBehaviour_.Entered += OnPlatformEntered;
-        platformBehaviour_.Exited += OnPlatformExited;
+        platformBehaviour.Entered += OnPlatformEntered;
+        platformBehaviour.Exited += OnPlatformExited;
     }
 
     private void StarOnEntered(IVisibilityBehaviour star)
@@ -39,7 +41,7 @@ public class ObjectiveHandler
 
     private void OnGoalReached()
     {
-        // load new scene
+        sceneLoader_.Load();
     }
     
     private void OnFloorTouched()

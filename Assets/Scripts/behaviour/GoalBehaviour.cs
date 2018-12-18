@@ -40,9 +40,12 @@ public class GoalBehaviour: IGoalBehaviour
         }
     }
 
-    private void OnTriggerEnter()
+    private void OnTriggerEnter(Collider col)
     {
-        Reached.Invoke();
+        if (!col.gameObject.CompareTag("Goal")) return;
+        
+        if(Reached != null)
+            Reached.Invoke();
     }
     
     public event Action Reached;
