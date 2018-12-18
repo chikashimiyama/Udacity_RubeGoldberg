@@ -10,7 +10,6 @@ public class UnitTest_GameLogic
     private IPlatformBehaviour platformBehaviourMock_;
     private ISceneLoader sceneLoaderMock_;
     
-    private GameLogic gameLogic_;
 
     [SetUp]
     public void SetUp()
@@ -22,7 +21,7 @@ public class UnitTest_GameLogic
         platformBehaviourMock_ = Substitute.For<IPlatformBehaviour>();
         sceneLoaderMock_ = Substitute.For<ISceneLoader>();
         
-        gameLogic_ = new GameLogic(starBehaviourMocks_, goalBehaviourMock_, ballBehaviourMock_,
+        var unused = new GameLogic(starBehaviourMocks_, goalBehaviourMock_, ballBehaviourMock_,
             platformBehaviourMock_, sceneLoaderMock_);
     }
 
@@ -50,6 +49,7 @@ public class UnitTest_GameLogic
         ballBehaviourMock_.FloorTouched += Raise.Event<Action>();
         
         starBehaviourMocks_[0].Received(1).IsVisible = true;
+        ballBehaviourMock_.Reset();
     }
 
     [Test]
@@ -57,7 +57,7 @@ public class UnitTest_GameLogic
     {
         platformBehaviourMock_.Entered += Raise.Event<Action>();
         
-        starBehaviourMocks_[0].Received(1).IsVisible = false;
+        starBehaviourMocks_[0].Received(1).IsVisible = true;
         ballBehaviourMock_.Received(1).Warn = false;
     }
 
@@ -66,7 +66,7 @@ public class UnitTest_GameLogic
     {
         platformBehaviourMock_.Exited += Raise.Event<Action>();
         
-        starBehaviourMocks_[0].Received(1).IsVisible = true;
+        starBehaviourMocks_[0].Received(1).IsVisible = false;
         ballBehaviourMock_.Received(1).Warn = true;
     }
 }

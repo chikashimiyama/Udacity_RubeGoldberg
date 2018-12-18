@@ -5,8 +5,8 @@ public class GameLogicBehavior : MonoBehaviour
 #pragma warning disable CS0649
 
     [SerializeField] private StarBehaviour[] starBehaviours_;
-    [SerializeField] private IBallBehaviour ballBehaviour_;
     [SerializeField] private GoalBehaviour goalBehaviour_;
+    [SerializeField] private BallBehaviour ballBehaviour_;
     [SerializeField] private PlatformBehaviour platformBehaviour_;
     
     [SerializeField] private string nextLevel_;

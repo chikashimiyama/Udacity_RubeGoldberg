@@ -3,11 +3,11 @@ using UnityEngine;
 
 public interface IGoalBehaviour
 {
-    bool State { get; set; }
+    bool State { set; }
     event Action Reached;
 }
 
-public class GoalBehaviour: IGoalBehaviour
+public class GoalBehaviour: MonoBehaviour, IGoalBehaviour
 {
 #pragma warning disable CS0649
 
@@ -20,10 +20,6 @@ public class GoalBehaviour: IGoalBehaviour
     
     public bool State
     {
-        get
-        {
-            return state_;
-        }
         set
         {
             state_ = value;

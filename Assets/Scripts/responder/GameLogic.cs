@@ -52,12 +52,13 @@ public class GameLogic
             star.IsVisible = true;
         }
         gainedStars_ = 0;
+        ballBehaviour_.Reset();
     }
 
     private void OnPlatformEntered()
     {
         foreach (var starBehaviour in starBehaviours_)
-            starBehaviour.IsVisible = false;
+            starBehaviour.IsVisible = true;
 
         ballBehaviour_.Warn = false;
     }
@@ -65,7 +66,7 @@ public class GameLogic
     private void OnPlatformExited()
     {
         foreach (var starBehaviour in starBehaviours_)
-            starBehaviour.IsVisible = true;
+            starBehaviour.IsVisible = false;
 
         ballBehaviour_.Warn = true;
     }

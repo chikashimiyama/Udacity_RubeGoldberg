@@ -11,14 +11,14 @@ public class PlatformBehaviour : MonoBehaviour, IPlatformBehaviour
 {
     private void OnTriggerEnter(Collider col)
     {
-        if (!col.CompareTag("Throwable")) return;
+        if (!col.CompareTag("Camera")) return;
         if(Entered != null)
             Entered.Invoke();
     }
 
     private void OnTriggerExit(Collider col)
     {
-        if (!col.CompareTag("Throwable")) return;
+        if (!col.CompareTag("Camera")) return;
         if(Exited != null)
             Exited.Invoke();
     }
