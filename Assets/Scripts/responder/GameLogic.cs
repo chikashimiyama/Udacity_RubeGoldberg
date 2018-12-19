@@ -29,6 +29,7 @@ public class GameLogic
 
         ballBehaviour_.FloorTouched += OnFloorTouched;
         goalBehaviour_.Reached += OnGoalReached;
+        
         platformBehaviour.Entered += OnPlatformEntered;
         platformBehaviour.Exited += OnPlatformExited;
     }

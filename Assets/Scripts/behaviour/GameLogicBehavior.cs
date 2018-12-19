@@ -9,15 +9,18 @@ public class GameLogicBehavior : MonoBehaviour
     [SerializeField] private BallBehaviour ballBehaviour_;
     [SerializeField] private PlatformBehaviour platformBehaviour_;
     [SerializeField] private SoundEffectBehaviour soundEffectBehaviour_;
+    [SerializeField] private MenuBehaviour menuBehaviour_;
     [SerializeField] private string nextLevel_;
     
 #pragma warning restore CS0649
 
     private GameLogic gameLogic_;
+    private MenuSystem menuSystem_;
     
     private void Start()
     {
         var sceneLoader = new SceneLoader(nextLevel_);
+        menuSystem_ = new MenuSystem(menuBehaviour_);
         gameLogic_ = new GameLogic(starBehaviours_, goalBehaviour_, ballBehaviour_, platformBehaviour_, 
             soundEffectBehaviour_, sceneLoader);
     }

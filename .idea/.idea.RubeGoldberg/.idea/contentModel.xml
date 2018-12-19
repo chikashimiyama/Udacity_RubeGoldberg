@@ -15,6 +15,7 @@
           <e p="GameLogicBehavior.cs" t="Include" />
           <e p="GoalBehaviour.cs" t="Include" />
           <e p="IVisibilityBehaviour.cs" t="Include" />
+          <e p="MenuBehaviour.cs" t="Include" />
           <e p="PlatformBehaviour.cs" t="Include" />
           <e p="SoundEffectBehaviour.cs" t="Include" />
           <e p="StarBehaviour.cs" t="Include" />
@@ -26,6 +27,7 @@
         </e>
         <e p="responder" t="Include">
           <e p="GameLogic.cs" t="Include" />
+          <e p="MenuSystem.cs" t="Include" />
           <e p="SceneLoader.cs" t="Include" />
         </e>
       </e>
