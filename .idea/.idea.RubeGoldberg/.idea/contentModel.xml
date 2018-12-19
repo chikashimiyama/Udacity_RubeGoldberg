@@ -8,10 +8,12 @@
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets\Editor" t="Include">
         <e p="UnitTest_GameLogic.cs" t="Include" />
+        <e p="UnitTest_MenuSystem.cs" t="Include" />
       </e>
       <e p="Assets\Scripts" t="Include">
         <e p="behaviour" t="Include">
           <e p="BallBehaviour.cs" t="Include" />
+          <e p="FanRotationBehaviour.cs" t="Include" />
           <e p="GameLogicBehavior.cs" t="Include" />
           <e p="GoalBehaviour.cs" t="Include" />
           <e p="IVisibilityBehaviour.cs" t="Include" />
@@ -20,7 +22,6 @@
           <e p="SoundEffectBehaviour.cs" t="Include" />
           <e p="StarBehaviour.cs" t="Include" />
         </e>
-        <e p="FanRotation.cs" t="Include" />
         <e p="interfaces" t="Include">
           <e p="IEnterable.cs" t="Include" />
           <e p="IPlatform.cs" t="Include" />
