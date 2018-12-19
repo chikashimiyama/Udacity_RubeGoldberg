@@ -3,6 +3,7 @@ public class GameLogic
     private readonly IStarBehaviour[] starBehaviours_;
     private readonly IGoalBehaviour goalBehaviour_;
     private readonly IBallBehaviour ballBehaviour_;
+    private readonly ISoundEffectBehaviour soundEffectBehaviour_;
     private readonly ISceneLoader sceneLoader_;
     private int gainedStars_;
     private readonly int requiredStars_;
@@ -11,13 +12,14 @@ public class GameLogic
         IGoalBehaviour goalBehaviour, 
         IBallBehaviour ballBehaviour, 
         IPlatformBehaviour platformBehaviour,
+        ISoundEffectBehaviour soundEffectBehaviour,
         ISceneLoader sceneLoader)
     {
         starBehaviours_ = starBehaviours;
         goalBehaviour_ = goalBehaviour;
         ballBehaviour_ = ballBehaviour;
         sceneLoader_ = sceneLoader;
-        
+        soundEffectBehaviour_ = soundEffectBehaviour;
         requiredStars_ = starBehaviours_.Length;
         
         foreach (var star in starBehaviours)

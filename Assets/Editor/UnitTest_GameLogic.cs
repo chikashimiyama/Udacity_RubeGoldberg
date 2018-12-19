@@ -8,8 +8,8 @@ public class UnitTest_GameLogic
     private IGoalBehaviour goalBehaviourMock_;
     private IBallBehaviour ballBehaviourMock_;
     private IPlatformBehaviour platformBehaviourMock_;
+    private ISoundEffectBehaviour soundEffectBehaviourMock_;
     private ISceneLoader sceneLoaderMock_;
-    
 
     [SetUp]
     public void SetUp()
@@ -19,10 +19,11 @@ public class UnitTest_GameLogic
         goalBehaviourMock_ = Substitute.For<IGoalBehaviour>();
         ballBehaviourMock_ = Substitute.For<IBallBehaviour>();
         platformBehaviourMock_ = Substitute.For<IPlatformBehaviour>();
+        soundEffectBehaviourMock_ = Substitute.For<ISoundEffectBehaviour>();
         sceneLoaderMock_ = Substitute.For<ISceneLoader>();
-        
+
         var unused = new GameLogic(starBehaviourMocks_, goalBehaviourMock_, ballBehaviourMock_,
-            platformBehaviourMock_, sceneLoaderMock_);
+            platformBehaviourMock_, soundEffectBehaviourMock_, sceneLoaderMock_);
     }
 
     [Test]
@@ -39,7 +40,7 @@ public class UnitTest_GameLogic
     public void Construction_OnGoalReached()
     {
         goalBehaviourMock_.Reached += Raise.Event<Action>();
-        
+
         sceneLoaderMock_.Received(1).Load();
     }
 
@@ -47,7 +48,7 @@ public class UnitTest_GameLogic
     public void Construction_OnFloorTouched()
     {
         ballBehaviourMock_.FloorTouched += Raise.Event<Action>();
-        
+
         starBehaviourMocks_[0].Received(1).IsVisible = true;
         ballBehaviourMock_.Reset();
     }
@@ -56,7 +57,7 @@ public class UnitTest_GameLogic
     public void Construction_OnPlatformEntered()
     {
         platformBehaviourMock_.Entered += Raise.Event<Action>();
-        
+
         starBehaviourMocks_[0].Received(1).IsVisible = true;
         ballBehaviourMock_.Received(1).Warn = false;
     }
@@ -65,7 +66,7 @@ public class UnitTest_GameLogic
     public void Construction_OnPlatformExited()
     {
         platformBehaviourMock_.Exited += Raise.Event<Action>();
-        
+
         starBehaviourMocks_[0].Received(1).IsVisible = false;
         ballBehaviourMock_.Received(1).Warn = true;
     }
