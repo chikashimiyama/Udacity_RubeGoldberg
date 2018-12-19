@@ -20,6 +20,7 @@
           <e p="MenuBehaviour.cs" t="Include" />
           <e p="PlatformBehaviour.cs" t="Include" />
           <e p="SoundEffectBehaviour.cs" t="Include" />
+          <e p="SpawnableBehaviour.cs" t="Include" />
           <e p="StarBehaviour.cs" t="Include" />
         </e>
         <e p="interfaces" t="Include">
@@ -34,7 +35,6 @@
           <e p="SceneLoader.cs" t="Include" />
         </e>
       </e>
-      <e p="Assets\SpawnableBehaviour.cs" t="Include" />
       <e p="Assets\SteamVR" t="Include">
         <e p="Editor" t="Include">
           <e p="SteamVR_Editor.cs" t="Include" />
