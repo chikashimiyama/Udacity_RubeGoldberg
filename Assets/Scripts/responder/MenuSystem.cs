@@ -1,22 +1,57 @@
-public interface IMenuSystem
+enum SwipeState
 {
-    void ShiftRight();
-    void ShiftLeft();
+    Standby,
+    Detected
 }
 
-public class MenuSystem : IMenuSystem
+public class MenuSystem
 {
     private readonly IMenuBehaviour menuBehaviour_;
+    private readonly ISpawnableBehaviour spawnableBehaviour_;
     private int index_ = 0;
-    
-    public MenuSystem(IMenuBehaviour menuBehaviour)
+    private float SWIPE_THRESHOLD = 0.5f;
+    private SwipeState swipeState_ = SwipeState.Standby;
+
+    public MenuSystem(IMenuBehaviour menuBehaviour, ISpawnableBehaviour spawnableBehaviour)
     {
         menuBehaviour_ = menuBehaviour;
-        menuBehaviour_.LeftButtonPressed += ShiftLeft;
-        menuBehaviour_.RightButtonPressed += ShiftRight;
+        spawnableBehaviour_ = spawnableBehaviour;
+        menuBehaviour_.SwipeUpdated += OnSwipeUpdated;
+        menuBehaviour_.SpawnPressed += OnSpawnPressed;
     }
 
-    public void ShiftLeft()
+    private void OnSwipeUpdated(float pos)
+    {
+        if (swipeState_ == SwipeState.Standby)
+        {
+            if (SWIPE_THRESHOLD < pos)
+            {
+                ShiftRight();
+                swipeState_ = SwipeState.Detected;
+            }
+            else if (pos < -SWIPE_THRESHOLD)
+            {
+                ShiftLeft();
+                swipeState_ = SwipeState.Detected;
+            }
+        }
+        else
+        {
+            if (pos == 0f)
+                swipeState_ = SwipeState.Standby;
+        }
+    }
+
+    private void OnSpawnPressed()
+    {
+        var index = index_ - 1;
+        if (index < 0)
+            return; 
+        
+        spawnableBehaviour_.SpawnAt(index, menuBehaviour_.Position );
+    }
+
+    private void ShiftLeft()
     {
         index_--;
         if (index_ < 0)
@@ -25,7 +60,7 @@ public class MenuSystem : IMenuSystem
         menuBehaviour_.Show(index_);
     }
 
-    public void ShiftRight()
+    private void ShiftRight()
     {
         index_++;
         if (index_ > menuBehaviour_.NumberOfObjects() - 1)

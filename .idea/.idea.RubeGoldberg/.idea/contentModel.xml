@@ -26,12 +26,15 @@
           <e p="IEnterable.cs" t="Include" />
           <e p="IPlatform.cs" t="Include" />
         </e>
-        <e p="responder" t="Include">
+        <e p="Main" t="Include">
           <e p="GameLogic.cs" t="Include" />
+        </e>
+        <e p="responder" t="Include">
           <e p="MenuSystem.cs" t="Include" />
           <e p="SceneLoader.cs" t="Include" />
         </e>
       </e>
+      <e p="Assets\SpawnableBehaviour.cs" t="Include" />
       <e p="Assets\SteamVR" t="Include">
         <e p="Editor" t="Include">
           <e p="SteamVR_Editor.cs" t="Include" />
