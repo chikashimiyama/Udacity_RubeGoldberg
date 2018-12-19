@@ -61,6 +61,22 @@ public class UnitTest_GameLogic
     }
 
     [Test]
+    public void Construction_OnTeleportStart()
+    {
+        platformBehaviourMock_.TeleportStarted += Raise.Event<Action>();
+
+        platformBehaviourMock_.Received(1).ColliderState = false;
+    }
+    
+    [Test]
+    public void Construction_OnTeleportEnded()
+    {
+        platformBehaviourMock_.TeleportEnded += Raise.Event<Action>();
+
+        platformBehaviourMock_.Received(1).ColliderState = true;
+    }
+
+    [Test]
     public void Construction_OnPlatformEntered()
     {
         platformBehaviourMock_.Entered += Raise.Event<Action>();

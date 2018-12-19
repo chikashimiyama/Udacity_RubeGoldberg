@@ -5,6 +5,7 @@ public class GameLogic
     private readonly IBallBehaviour ballBehaviour_;
     private readonly ISoundEffectBehaviour soundEffectBehaviour_;
     private readonly ISceneLoader sceneLoader_;
+    private readonly IPlatformBehaviour platformBehaviour_;
     private int gainedStars_;
     private readonly int requiredStars_;
     
@@ -19,6 +20,7 @@ public class GameLogic
         goalBehaviour_ = goalBehaviour;
         ballBehaviour_ = ballBehaviour;
         sceneLoader_ = sceneLoader;
+        platformBehaviour_ = platformBehaviour;
         soundEffectBehaviour_ = soundEffectBehaviour;
         requiredStars_ = starBehaviours_.Length;
         
@@ -29,9 +31,11 @@ public class GameLogic
 
         ballBehaviour_.FloorTouched += OnFloorTouched;
         goalBehaviour_.Reached += OnGoalReached;
-        
-        platformBehaviour.Entered += OnPlatformEntered;
-        platformBehaviour.Exited += OnPlatformExited;
+
+        platformBehaviour_.TeleportStarted += OnTeleportStarted;
+        platformBehaviour_.TeleportEnded += OnTeleportEnded;
+        platformBehaviour_.Entered += OnPlatformEntered;
+        platformBehaviour_.Exited += OnPlatformExited;
     }
 
     private void StarOnEntered(IVisibilityBehaviour star)
@@ -62,6 +66,16 @@ public class GameLogic
         soundEffectBehaviour_.PlayFail();
     }
 
+    private void OnTeleportStarted()
+    {
+        platformBehaviour_.ColliderState = false;
+    }
+
+    private void OnTeleportEnded()
+    {
+        platformBehaviour_.ColliderState = true;
+    }
+    
     private void OnPlatformEntered()
     {
         foreach (var starBehaviour in starBehaviours_)
@@ -77,4 +91,6 @@ public class GameLogic
 
         ballBehaviour_.Warn = true;
     }
+    
+    
 }

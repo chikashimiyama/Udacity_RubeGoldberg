@@ -297,7 +297,6 @@
         <e p="SteamVR_Input_Actions.cs" t="Include" />
         <e p="SteamVR_Input_ActionSets.cs" t="Include" />
       </e>
-      <e p="Assets\TeleportMarker.cs" t="Include" />
       <e p="Library" t="ExcludeRecursive" />
       <e p="obj" t="ExcludeRecursive" />
       <e p="packages" t="ExcludeRecursive" />
