@@ -3,12 +3,23 @@ using UnityEngine;
 
 public interface IPlatformBehaviour
 {
+    bool ColliderState { set; }
     event Action Entered;
     event Action Exited;
 }
 
+
 public class PlatformBehaviour : MonoBehaviour, IPlatformBehaviour
 {
+    
+    
+    private BoxCollider boxCollider_;
+
+    private void Start()
+    {
+        boxCollider_ = GetComponent<BoxCollider>();
+    }
+
     private void OnTriggerEnter(Collider col)
     {
         if (!col.CompareTag("Camera")) return;
@@ -21,6 +32,11 @@ public class PlatformBehaviour : MonoBehaviour, IPlatformBehaviour
         if (!col.CompareTag("Camera")) return;
         if(Exited != null)
             Exited.Invoke();
+    }
+
+    public bool ColliderState
+    {
+        set { boxCollider_.enabled = value; }
     }
 
     public event Action Entered;
