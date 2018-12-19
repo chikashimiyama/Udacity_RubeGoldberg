@@ -9,12 +9,12 @@ public interface IGoalBehaviour
 
 public class GoalBehaviour: MonoBehaviour, IGoalBehaviour
 {
-#pragma warning disable CS0649
+#pragma warning disable 0649
 
     [SerializeField] private GameObject inactiveObject;
     [SerializeField] private GameObject activeObject;
 
-#pragma warning restore CS0649
+#pragma warning restore 0649
 
     private bool state_;
     

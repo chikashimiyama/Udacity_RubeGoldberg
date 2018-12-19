@@ -17,11 +17,11 @@ public class SoundEffectBehaviour : MonoBehaviour, ISoundEffectBehaviour
 
     private void Start()
     {
-        fail_ = Resources.Load<AudioClip>("SE/fail.mp3");
-        star_ = Resources.Load<AudioClip>("SE/star.wav");
-        clear_ = Resources.Load<AudioClip>("SE/clear.wav");
+        fail_ = Resources.Load<AudioClip>("Audio/fail.mp3");
+        star_ = Resources.Load<AudioClip>("Audio/star.wav");
+        clear_ = Resources.Load<AudioClip>("Audio/clear.wav");
 
-        audioSource_ = new AudioSource();
+        audioSource_ = gameObject.AddComponent<AudioSource>();
     }
 
     public void PlayFail()

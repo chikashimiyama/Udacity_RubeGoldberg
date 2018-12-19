@@ -59,7 +59,6 @@ public class MenuBehaviour : MonoBehaviour, IMenuBehaviour
         }
     }
 
-
     public event Action<float> SwipeUpdated;
     public event Action SpawnPressed;
 }

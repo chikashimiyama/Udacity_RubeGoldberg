@@ -40,10 +40,13 @@ public class GameLogic
         gainedStars_++;
         if (gainedStars_ == requiredStars_)
             goalBehaviour_.State = true;
+        soundEffectBehaviour_.PlayStar();
     }
 
     private void OnGoalReached()
     {
+        ballBehaviour_.FloorTouched -= OnFloorTouched;
+        soundEffectBehaviour_.PlayClear();
         sceneLoader_.Load();
     }
     
@@ -56,6 +59,7 @@ public class GameLogic
         gainedStars_ = 0;
         ballBehaviour_.Reset();
         goalBehaviour_.State = false;
+        soundEffectBehaviour_.PlayFail();
     }
 
     private void OnPlatformEntered()

@@ -34,6 +34,7 @@ public class UnitTest_GameLogic
         starBehaviourMocks_[0].Received(1).IsVisible = false;
 
         goalBehaviourMock_.Received(1).State = true;
+        soundEffectBehaviourMock_.Received(1).PlayStar();
     }
 
     [Test]
@@ -42,6 +43,11 @@ public class UnitTest_GameLogic
         goalBehaviourMock_.Reached += Raise.Event<Action>();
 
         sceneLoaderMock_.Received(1).Load();
+        soundEffectBehaviourMock_.Received(1).PlayClear();
+        {
+            ballBehaviourMock_.FloorTouched += Raise.Event<Action>();
+            soundEffectBehaviourMock_.DidNotReceive().PlayFail();
+        }
     }
 
     [Test]
@@ -51,6 +57,7 @@ public class UnitTest_GameLogic
 
         starBehaviourMocks_[0].Received(1).IsVisible = true;
         ballBehaviourMock_.Reset();
+        soundEffectBehaviourMock_.Received(1).PlayFail();
     }
 
     [Test]
