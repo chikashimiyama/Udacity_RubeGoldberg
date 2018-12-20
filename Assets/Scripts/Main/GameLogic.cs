@@ -36,6 +36,9 @@ public class GameLogic
         platformBehaviour_.TeleportEnded += OnTeleportEnded;
         platformBehaviour_.Entered += OnPlatformEntered;
         platformBehaviour_.Exited += OnPlatformExited;
+
+        if (starBehaviours_.Length == 0)
+            goalBehaviour_.State = true;
     }
 
     private void StarOnEntered(IVisibilityBehaviour star)

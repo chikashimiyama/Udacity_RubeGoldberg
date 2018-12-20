@@ -19,9 +19,9 @@ public class BallBehaviour : MonoBehaviour, IBallBehaviour
         rigidbody_ = GetComponent<Rigidbody>();
     }
 
-    private void OnTriggerEnter(Collider col)
+    private void OnCollisionEnter(Collision col)
     {
-        if (!col.CompareTag("Ground")) return;
+        if (!col.gameObject.CompareTag("Ground")) return;
         if(FloorTouched != null)
             FloorTouched.Invoke();
     }

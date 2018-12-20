@@ -1,4 +1,4 @@
-using UnityEngine.SceneManagement;
+using Valve.VR;
 
 public interface ISceneLoader
 {
@@ -16,6 +16,6 @@ public class SceneLoader: ISceneLoader
     
     public void Load()
     {
-        SceneManager.LoadScene(sceneName_, LoadSceneMode.Single);
+        SteamVR_LoadLevel.Begin(sceneName_);
     }
 }
