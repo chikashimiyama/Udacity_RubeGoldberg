@@ -91,7 +91,7 @@ public class UnitTest_GameLogic
     {
         platformBehaviourMock_.Entered += Raise.Event<Action>();
 
-        starBehaviourMocks_[0].Received(1).IsVisible = true;
+        starBehaviourMocks_[0].Received(1).Availability = true;
         ballBehaviourMock_.Received(1).Warn = false;
     }
 
@@ -100,7 +100,7 @@ public class UnitTest_GameLogic
     {
         platformBehaviourMock_.Exited += Raise.Event<Action>();
 
-        starBehaviourMocks_[0].Received(1).IsVisible = false;
+        starBehaviourMocks_[0].Received(1).Availability = false;
         ballBehaviourMock_.Received(1).Warn = true;
     }
 }

@@ -49,6 +49,9 @@ public class StarBehaviour : MonoBehaviour, IStarBehaviour
     {
         if (Entered == null)
             return;
+
+        if (!other.CompareTag("Throwable"))
+            return;
         
         Entered.Invoke(this);
     }

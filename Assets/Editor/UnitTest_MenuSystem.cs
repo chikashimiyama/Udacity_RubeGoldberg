@@ -62,7 +62,7 @@ public class UnitTest_MenuSystem
     [Test]
     public void Construct_SpawnPressed()
     {
-        menuBehaviour_.Position.Returns(new Vector3(3f,4f,5f));
+        menuBehaviour_.SpawnPosition.Returns(new Vector3(3f,4f,5f));
         menuBehaviour_.NumberOfObjects().Returns(2);
         menuBehaviour_.SwipeUpdated += Raise.Event<Action<float>>(0.51f);
 

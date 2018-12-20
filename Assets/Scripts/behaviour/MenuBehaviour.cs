@@ -33,7 +33,6 @@ public class MenuBehaviour : MonoBehaviour, IMenuBehaviour
         {
             if (SpawnPressed != null) SpawnPressed.Invoke();
         }
-
     }
     
     public int NumberOfObjects()
