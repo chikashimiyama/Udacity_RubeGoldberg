@@ -6,7 +6,7 @@ public interface IMenuBehaviour
 {
     int NumberOfObjects();
     void Show(int index);
-    Vector3 Position { get; }
+    Vector3 SpawnPosition { get; }
 
     event Action<float> SwipeUpdated;
     event Action SpawnPressed;
@@ -21,7 +21,7 @@ public class MenuBehaviour : MonoBehaviour, IMenuBehaviour
 
     [SteamVR_DefaultAction("spawn", "default")]
     public SteamVR_Action_Boolean spawn;
- 
+    private const float SPAWN_DISTANCE = 1.5f;
     
     private void Update()
     {
@@ -51,11 +51,11 @@ public class MenuBehaviour : MonoBehaviour, IMenuBehaviour
         rubeGoldbergObjects_[index].SetActive(true);
     }
 
-    public Vector3 Position
+    public Vector3 SpawnPosition
     {
         get
         {
-            return transform.position;
+            return transform.position + transform.forward * SPAWN_DISTANCE;
         }
     }
 

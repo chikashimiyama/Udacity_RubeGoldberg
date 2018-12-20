@@ -48,7 +48,8 @@ public class MenuSystem
         if (index < 0)
             return; 
         
-        spawnableBehaviour_.SpawnAt(index, menuBehaviour_.Position );
+        
+        spawnableBehaviour_.SpawnAt(index, menuBehaviour_.SpawnPosition );
         menuBehaviour_.Show(0); // hide
     }
 

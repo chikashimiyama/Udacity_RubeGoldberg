@@ -86,18 +86,20 @@ public class GameLogic
     
     private void OnPlatformEntered()
     {
-        foreach (var starBehaviour in starBehaviours_)
-            starBehaviour.IsVisible = true;
-
         ballBehaviour_.Warn = false;
+        foreach (var star in starBehaviours_)
+        {
+            star.Availability = true;
+        }
     }
 
     private void OnPlatformExited()
     {
-        foreach (var starBehaviour in starBehaviours_)
-            starBehaviour.IsVisible = false;
-
         ballBehaviour_.Warn = true;
+        foreach (var star in starBehaviours_)
+        {
+            star.Availability = false;
+        }
     }
     
     
