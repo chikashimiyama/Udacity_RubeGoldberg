@@ -38,8 +38,9 @@ public class UnitTest_GameLogic
     }
 
     [Test]
-    public void Construction_OnGoalReached()
-    {
+    public void Construction_OnGoalReached_star_collected()
+    { 
+        starBehaviourMocks_[0].Entered += Raise.Event<Action<IVisibilityBehaviour>>(starBehaviourMocks_);
         goalBehaviourMock_.Reached += Raise.Event<Action>();
 
         sceneLoaderMock_.Received(1).Load();
@@ -48,6 +49,15 @@ public class UnitTest_GameLogic
             ballBehaviourMock_.FloorTouched += Raise.Event<Action>();
             soundEffectBehaviourMock_.DidNotReceive().PlayFail();
         }
+    }
+    
+    [Test]
+    public void Construction_OnGoalReached_star_uncollected()
+    {
+        goalBehaviourMock_.Reached += Raise.Event<Action>();
+
+        sceneLoaderMock_.DidNotReceive().Load();
+        soundEffectBehaviourMock_.DidNotReceive().PlayClear();
     }
 
     [Test]

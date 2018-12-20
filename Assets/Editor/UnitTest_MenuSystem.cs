@@ -69,6 +69,7 @@ public class UnitTest_MenuSystem
         menuBehaviour_.SpawnPressed += Raise.Event<Action>();
         
         spawnableBehaviour_.Received(1).SpawnAt(0, new Vector3(3f, 4f, 5f));
+        menuBehaviour_.Received(1).Show(0);
     }
     
     [Test]
@@ -78,4 +79,5 @@ public class UnitTest_MenuSystem
         
         spawnableBehaviour_.DidNotReceive().SpawnAt(0, Arg.Any<Vector3>());
     }
+   
 }

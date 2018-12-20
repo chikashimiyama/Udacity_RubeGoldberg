@@ -14,5 +14,4 @@ public class SpawnableBehaviour : MonoBehaviour, ISpawnableBehaviour
         spawnables_[index].transform.position = position;
         spawnables_[index].SetActive(true);
     }
-
 }

@@ -49,6 +49,7 @@ public class MenuSystem
             return; 
         
         spawnableBehaviour_.SpawnAt(index, menuBehaviour_.Position );
+        menuBehaviour_.Show(0); // hide
     }
 
     private void ShiftLeft()

@@ -36,25 +36,30 @@ public class GameLogic
         platformBehaviour_.TeleportEnded += OnTeleportEnded;
         platformBehaviour_.Entered += OnPlatformEntered;
         platformBehaviour_.Exited += OnPlatformExited;
-
-        if (starBehaviours_.Length == 0)
-            goalBehaviour_.State = true;
     }
 
     private void StarOnEntered(IVisibilityBehaviour star)
     {
         star.IsVisible = false;
         gainedStars_++;
-        if (gainedStars_ == requiredStars_)
+        if (AreAllStarCollected())
             goalBehaviour_.State = true;
         soundEffectBehaviour_.PlayStar();
     }
 
     private void OnGoalReached()
     {
+        if (!AreAllStarCollected())
+            return;            
+    
         ballBehaviour_.FloorTouched -= OnFloorTouched;
         soundEffectBehaviour_.PlayClear();
         sceneLoader_.Load();
+    }
+
+    private bool AreAllStarCollected()
+    {
+        return gainedStars_ == requiredStars_;
     }
     
     private void OnFloorTouched()
