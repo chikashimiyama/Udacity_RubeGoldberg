@@ -10,6 +10,7 @@ public interface IBallBehaviour
 
 public class BallBehaviour : MonoBehaviour, IBallBehaviour
 {
+    [SerializeField] private GameObject pedastal;
     private Material material_;
     private Rigidbody rigidbody_;
 
@@ -29,7 +30,9 @@ public class BallBehaviour : MonoBehaviour, IBallBehaviour
     public void Reset()
     {
         rigidbody_.isKinematic = true;
-        transform.position = new Vector3(0f, 1.082f, 0.671f);
+        var origin = pedastal.transform.position;
+        origin.y = 1.082f;
+        transform.position = origin;
         rigidbody_.isKinematic = false;
     }
 

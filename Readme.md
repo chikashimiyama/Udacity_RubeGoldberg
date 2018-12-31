@@ -25,10 +25,16 @@ new Steam SDK and its implementation.
 
 ### One thing that was challenging
 
-Level Design.
+Level Design. I’m not a good game designer ; (
 
  
 
 ### The system I used for testing
 
 Oculus Rift
+
+ 
+
+### The SteamVR version used 
+
+ver 2.0.1 (a.k.a new version)
